@@ -63,6 +63,13 @@ const Home = () => {
             </div>
           </div>
         </Carousel>
+        
+      </div>
+      <div className="bg-brandPrimary text-white py-8 px-4 text-center">
+        {/* Sección azul en la parte inferior */}
+        <h2 className="text-lg font-semibold mb-4">¡Bienvenido!</h2>
+        <p className="text-sm">El Centro Medico Integral Liniers es un espacio dedicado al bienestar y la salud holística de sus pacientes. Nuestro objetivo es ofrecer una atención integral y personalizada que abarca todas las dimensiones de la salud física, mental y emocional. 
+        En el Centro Medico Integral Liniers, nos comprometemos a proporcionar servicios de alta calidad en un ambiente acogedor y seguro, donde cada paciente se sienta valorado y escuchado</p>
       </div>
     </div>
   );

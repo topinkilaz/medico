@@ -1,5 +1,5 @@
 import  { useEffect, useState } from "react";
-import { Link } from "react-scroll"; // Importa Link de react-scroll
+import { Link } from "react-scroll"; 
 import logo from '../assets/Logo-3.png'
 import { FaXmark, FaBars } from "react-icons/fa6";
 
@@ -25,12 +25,12 @@ const Navbar = () => {
     }, []); // Agrega [] para que useEffect se ejecute solo una vez al montar el componente
 
     const navItems = [
-        { link: "Inicio", path: "inicio" },
-        { link: "Descripción", path: "descripcion" },
-        { link: "Especialidades", path: "especialidades" },
-        { link: "Servicios", path: "servicios" },
-        { link: "Staff professional", path: "staff" },
-        { link: "Contacto", path: "contacto" },
+        { link: "Inicio", path: "/" },
+        { link: "Descripción", path: "/descripcion" },
+        { link: "Especialidades", path: "/especialidades" },
+        { link: "Servicios", path: "/servicios" },
+        { link: "Staff professional", path: "/staff" },
+        { link: "Contacto", path: "/contacto" },
     ];
 
     return (
@@ -82,6 +82,7 @@ const Navbar = () => {
                 </div>
 
             </nav>
+            
         </header>
     );
 }

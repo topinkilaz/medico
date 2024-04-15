@@ -1,16 +1,21 @@
 import Navbar from './components/Navbar.tsx'
 import './App.css'
 import Home from './components/home.tsx'
-import Services from './components/services.tsx'
-
+import Team from './components/Team.tsx'
+import Footer from './components/Footer.tsx'
+import Contenido from './components/Contenido.tsx'
 function App() {
 
 
   return (
+    
     <>
     <Navbar/>
     <Home/>
-    <Services/>
+    <Contenido/>
+    <Team/>
+    <Footer/>
+    
     </>
   )
 }
