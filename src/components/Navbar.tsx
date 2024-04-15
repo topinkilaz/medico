@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { Link } from "react-scroll"; // Importa Link de react-scroll
 import logo from '../assets/Logo-3.png'
 import { FaXmark, FaBars } from "react-icons/fa6";
