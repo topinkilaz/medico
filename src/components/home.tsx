@@ -9,7 +9,7 @@ const Home = () => {
         <Carousel className="w-full h-screen">
         <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12">
   {/* hero text */}
-  <div className="md:w-1/2">
+  <div className="md:w-1/2 hidden md:block">
     <h1 className="text-4xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
       PENSANDO EN {" "}
       <span className="text-4xl text-brandPrimary leading-snug">
@@ -21,46 +21,11 @@ const Home = () => {
     </p>
     <button className="btn-primary">Mas Info</button>
   </div>
-  <div className="md:w-1/2 flex justify-center items-center mt-36">
+  <div className="md:w-1/2 flex justify-center items-center md:mt-36">
     <img src={banner1} alt="" className="h-screen w-screen" />
   </div>
 </div>
-<div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12">
-  {/* hero text */}
-  <div className="md:w-1/2">
-    <h1 className="text-4xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
-      PENSANDO EN {" "}
-      <span className="text-4xl text-brandPrimary leading-snug">
-        TU <span className="text-4xl text-secundaryColor leading-snug">SALUD</span> Y <span className="text-4xl text-secundaryColor leading-snug">FAMILIA</span>
-      </span>
-    </h1>
-    <p className="text-neutralGrey text-base mb-8">
-      Ofreciendo siempre la mejor atención
-    </p>
-    <button className="btn-primary">Mas Info</button>
-  </div>
-  <div className="md:w-1/2 flex justify-center items-center mt-36">
-    <img src={banner1} alt="" className="h-screen w-screen" />
-  </div>
-</div>
-<div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12">
-  {/* hero text */}
-  <div className="md:w-1/2">
-    <h1 className="text-4xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
-      PENSANDO EN {" "}
-      <span className="text-4xl text-brandPrimary leading-snug">
-        TU <span className="text-4xl text-secundaryColor leading-snug">SALUD</span> Y <span className="text-4xl text-secundaryColor leading-snug">FAMILIA</span>
-      </span>
-    </h1>
-    <p className="text-neutralGrey text-base mb-8">
-      Ofreciendo siempre la mejor atención
-    </p>
-    <button className="btn-primary">Mas Info</button>
-  </div>
-  <div className="md:w-1/2 flex justify-center items-center mt-36">
-    <img src={banner1} alt="" className="h-screen w-screen" />
-  </div>
-</div>
+
         </Carousel>
         {/* Barra azul */}
         <div className="absolute bottom-0 left-0 w-full bg-brandPrimary text-white py-8 px-4 text-center">
