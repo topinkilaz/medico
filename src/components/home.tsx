@@ -9,17 +9,56 @@ const Home = () => {
         <Carousel className="w-full h-screen">
         <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12">
   {/* hero text */}
-  <div className="md:w-1/2 hidden md:block">
-    <h1 className="text-4xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
+  <div className=" ml-5 md:w-1/2 hidden md:block">
+    <h1 className="text-5xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
       PENSANDO EN {" "}
-      <span className="text-4xl text-brandPrimary leading-snug">
-        TU <span className="text-4xl text-secundaryColor leading-snug">SALUD</span> Y <span className="text-4xl text-secundaryColor leading-snug">FAMILIA</span>
+      <span className="text-5xl text-brandPrimary leading-snug">
+      <span className="block">TU</span>
+  <span className="text-5xl text-secundaryColor leading-snug">SALUD</span> Y <span className="text-5xl text-secundaryColor leading-snug">FAMILIA</span>
       </span>
     </h1>
-    <p className="text-neutralGrey text-base mb-8">
+    <p className="text-neutralGrey text-3xl mb-8">
       Ofreciendo siempre la mejor atención
     </p>
-    <button className="btn-primary">Mas Info</button>
+    <button className="btn-primary text-lg">Mas Info</button>
+  </div>
+  <div className="md:w-1/2 flex justify-center items-center md:mt-36">
+    <img src={banner1} alt="" className="h-screen w-screen" />
+  </div>
+</div>
+<div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12">
+  {/* hero text */}
+  <div className=" ml-5 md:w-1/2 hidden md:block">
+    <h1 className="text-5xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
+      PENSANDO EN {" "}
+      <span className="text-5xl text-brandPrimary leading-snug">
+      <span className="block">TU</span>
+  <span className="text-5xl text-secundaryColor leading-snug">SALUD</span> Y <span className="text-5xl text-secundaryColor leading-snug">FAMILIA</span>
+      </span>
+    </h1>
+    <p className="text-neutralGrey text-3xl mb-8">
+      Ofreciendo siempre la mejor atención
+    </p>
+    <button className="btn-primary text-lg">Mas Info</button>
+  </div>
+  <div className="md:w-1/2 flex justify-center items-center md:mt-36">
+    <img src={banner1} alt="" className="h-screen w-screen" />
+  </div>
+</div>
+<div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12">
+  {/* hero text */}
+  <div className=" ml-5 md:w-1/2 hidden md:block">
+    <h1 className="text-5xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
+      PENSANDO EN {" "}
+      <span className="text-5xl text-brandPrimary leading-snug">
+      <span className="block">TU</span>
+  <span className="text-5xl text-secundaryColor leading-snug">SALUD</span> Y <span className="text-5xl text-secundaryColor leading-snug">FAMILIA</span>
+      </span>
+    </h1>
+    <p className="text-neutralGrey text-3xl mb-8">
+      Ofreciendo siempre la mejor atención
+    </p>
+    <button className="btn-primary text-lg">Mas Info</button>
   </div>
   <div className="md:w-1/2 flex justify-center items-center md:mt-36">
     <img src={banner1} alt="" className="h-screen w-screen" />
@@ -28,10 +67,10 @@ const Home = () => {
 
         </Carousel>
         {/* Barra azul */}
-        <div className="absolute bottom-0 left-0 w-full bg-brandPrimary text-white py-8 px-4 text-center">
+        <div className="absolute bottom-0 left-0 w-full bg-brandPrimary text-white py-8 px-4 text-center ">
           {/* Contenido de la barra azul */}
           
-          <p className="text-sm">El Centro Medico Integral Liniers es un espacio dedicado al bienestar y la salud holística de sus pacientes. Nuestro objetivo es ofrecer una atención integral y personalizada que abarca todas las dimensiones de la salud física, mental y emocional. 
+          <p className="text-lg  ">El Centro Medico Integral Liniers es un espacio dedicado al bienestar y la salud holística de sus pacientes. Nuestro objetivo es ofrecer una atención integral y personalizada que abarca todas las dimensiones de la salud física, mental y emocional. 
           En el Centro Medico Integral Liniers, nos comprometemos a proporcionar servicios de alta calidad en un ambiente acogedor y seguro, donde cada paciente se sienta valorado y escuchado</p>
         </div>
         </div>
