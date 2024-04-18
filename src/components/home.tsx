@@ -1,6 +1,6 @@
 import { Carousel } from "flowbite-react";
 
-import banner1 from "../assets/portada.jpg";
+import banner1 from "../assets/portada.png";
 
 const Home = () => {
   return (
@@ -9,14 +9,13 @@ const Home = () => {
         <Carousel className="w-full h-screen">
         <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12">
   {/* hero text */}
-  <div className=" ml-5 md:w-1/2 hidden md:block">
-    <h1 className="text-5xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
-      PENSANDO EN {" "}
-      <span className="text-5xl text-brandPrimary leading-snug">
-      <span className="block">TU</span>
-  <span className="text-5xl text-secundaryColor leading-snug">SALUD</span> Y <span className="text-5xl text-secundaryColor leading-snug">FAMILIA</span>
-      </span>
-    </h1>
+  <div className=" ml-24 md:w-1/2 hidden md:block">
+  <h1 className="text-5xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
+  PENSANDO EN{" "}<br/>
+  <span className="text-5xl text-brandPrimary leading-snug">TU</span>{" "}
+  <span className="text-5xl text-secundaryColor leading-snug">SALUD</span> Y{" "}
+  <span className="text-5xl text-secundaryColor leading-snug">FAMILIA</span>
+</h1>
     <p className="text-neutralGrey text-3xl mb-8">
       Ofreciendo siempre la mejor atención
     </p>
@@ -28,14 +27,13 @@ const Home = () => {
 </div>
 <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12">
   {/* hero text */}
-  <div className=" ml-5 md:w-1/2 hidden md:block">
-    <h1 className="text-5xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
-      PENSANDO EN {" "}
-      <span className="text-5xl text-brandPrimary leading-snug">
-      <span className="block">TU</span>
-  <span className="text-5xl text-secundaryColor leading-snug">SALUD</span> Y <span className="text-5xl text-secundaryColor leading-snug">FAMILIA</span>
-      </span>
-    </h1>
+  <div className=" ml-24 md:w-1/2 hidden md:block">
+  <h1 className="text-5xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
+  PENSANDO EN{" "}<br/>
+  <span className="text-5xl text-brandPrimary leading-snug">TU</span>{" "}
+  <span className="text-5xl text-secundaryColor leading-snug">SALUD</span> Y{" "}
+  <span className="text-5xl text-secundaryColor leading-snug">FAMILIA</span>
+</h1>
     <p className="text-neutralGrey text-3xl mb-8">
       Ofreciendo siempre la mejor atención
     </p>
@@ -47,14 +45,13 @@ const Home = () => {
 </div>
 <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12">
   {/* hero text */}
-  <div className=" ml-5 md:w-1/2 hidden md:block">
-    <h1 className="text-5xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
-      PENSANDO EN {" "}
-      <span className="text-5xl text-brandPrimary leading-snug">
-      <span className="block">TU</span>
-  <span className="text-5xl text-secundaryColor leading-snug">SALUD</span> Y <span className="text-5xl text-secundaryColor leading-snug">FAMILIA</span>
-      </span>
-    </h1>
+  <div className=" ml-24 md:w-1/2 hidden md:block">
+  <h1 className="text-5xl font-bold mb-4 text-brandPrimary md:w-3/4 leading-snug">
+  PENSANDO EN{" "}<br/>
+  <span className="text-5xl text-brandPrimary leading-snug">TU</span>{" "}
+  <span className="text-5xl text-secundaryColor leading-snug">SALUD</span> Y{" "}
+  <span className="text-5xl text-secundaryColor leading-snug">FAMILIA</span>
+</h1>
     <p className="text-neutralGrey text-3xl mb-8">
       Ofreciendo siempre la mejor atención
     </p>
@@ -64,7 +61,6 @@ const Home = () => {
     <img src={banner1} alt="" className="h-screen w-screen" />
   </div>
 </div>
-
         </Carousel>
         {/* Barra azul */}
         <div className="absolute bottom-0 left-0 w-full bg-brandPrimary text-white py-8 px-4 text-center ">
