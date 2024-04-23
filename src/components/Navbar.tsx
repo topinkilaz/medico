@@ -20,9 +20,9 @@ const Navbar = () => {
         };
         window.addEventListener('scroll', handleScroll);
         return () => {
-            window.removeEventListener('scroll', handleScroll); // Cambia addEventListener a removeEventListener
+            window.removeEventListener('scroll', handleScroll); 
         }
-    }, []); // Agrega [] para que useEffect se ejecute solo una vez al montar el componente
+    }, []); 
 
     const navItems = [
         { link: "Inicio", path: "/" },
@@ -34,7 +34,10 @@ const Navbar = () => {
     ];
 
     return (
+        
         <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0">
+            
+            
             <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border bg-white duration-300":""}`}>
                 <div className="flex justify-between items-center text-base gap-8">
                     <a href="/" className='text-2xl font-semibold flex items-center space-x-3'><img src={logo} alt="" className='w-60 inline-block items-center' /><span className='text-[#263238]'></span></a>
@@ -50,11 +53,11 @@ const Navbar = () => {
                             ))
                         }
                     </ul>
-                    {/*boton pantallas grandes*/}
+                    {/*boton pantallas grandes
                     <div className='space-x-12 hidden lg:flex items-center'>
                         <a href="/" className='hidden lg:flex items-center text-brandPrimary hover:text-gray-900'>Login</a>
                         <button className='bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey'>Sign up</button>
-                    </div>
+                    </div>*/}
                     {/* menu boton para mobiles */}
                     <div className='md:hidden'>
                         <button onClick= {toggleMenu} className='text-neutralDGrey focus:outline-none focus:text-gray-500'>
@@ -82,6 +85,7 @@ const Navbar = () => {
                 </div>
 
             </nav>
+            
             
         </header>
     );

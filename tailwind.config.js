@@ -8,6 +8,12 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sardo: ['Sardo Bold', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+        teko: ["Teko", "sans-serif"],
+
+      },
       colors: {
        'neutralSilver':'#F5F7FA',
        'neutralDGrey':'#4D4D4D',
