@@ -2,7 +2,7 @@ import portada2 from "../assets/portada11.jpg";
 import atencion from "../assets/atencion.png";
 const Description = () => {
   return (
-    <div className="bg-neutralSilver">
+    <div className="bg-neutralSilver py-10">
       <div className="relative">
         {/* Barra azul */}
 
@@ -131,29 +131,29 @@ const Description = () => {
       </div>
 
       <div className="flex justify-center items-center">
-        <div className=" flex relative  w-full sm:w-5/6 bg-neutralSilver text-black py-16 px-9 text-center border border-black">
+        <div className=" flex relative  w-full sm:w-5/6 bg-neutralSilver text-black py-16 px-9 pb-4 text-center border border-black">
           <div className="absolute top-0 left-0 bg-brandPrimary w-52 text-white py-2">
             {" "}
             SISTEMA DE TURNOS
           </div>
-          <div className=" text-start">
+          <div className="text-start">
           <p className=" text-brandPrimary ">
           Atención personalizada por WhastApp de <span className=" text-secundaryColor">Lunes a sábado de 8:00 a 20:00 horas</span>
           </p>
           <p className=" text-brandPrimary ">
-          <span className=" font-bold">WhastApp:</span> 11 5368-0059 Teléfono: 4612-0383
+          <span className=" font-bold">WhastApp:</span> 11 5368-0059 
           </p>
           <p className=" text-brandPrimary ">
            <span className="font-bold">Teléfono:</span> 4612-0383
           </p>
           </div>
-
-          <img
-            className="absolute  top-0 right-0 bottom-0 h-auto w-96 
-                   object-cover"
-            src={atencion}
-            alt=""
-          />
+          <div className="image-container absolute top-0 right-0 bottom-0 w-96">
+      <img
+        className="h-full w-full object-cover"
+        src={atencion}
+        alt=""
+      />
+    </div>
         </div>
       </div>
     </div>
