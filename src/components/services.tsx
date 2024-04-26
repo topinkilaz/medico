@@ -73,7 +73,7 @@ const Services = () => {
                 tincidunt nisl dui, et sagittis orci iaculis ut. Sed sit amet
                 porttitor odio. Praesent tempus sapien non massa fermentum
                 tincidunt. Cras at eros venenatis, hendrerit lectus vitae,
-                finibus felis. Sed semper congue erat. Fusce sed porta enim.
+                finibus felis. Sed semper congue erat. Fusce sed porta enimkhgfjhgfjhgfjhgjf.
               </p>
               <button className="btn-primary text-lg">Mas Info</button>
             </div>
