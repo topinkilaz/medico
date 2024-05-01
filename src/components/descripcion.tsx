@@ -2,7 +2,7 @@ import portada2 from "../assets/portada11.jpg";
 import atencion from "../assets/atencion.png";
 const Description = () => {
   return (
-    <div className="bg-neutralSilver py-10">
+    <div className="bg-neutralSilver py-10 " id="descripcion">
       <div className="relative">
         {/* Barra azul */}
 

@@ -1,11 +1,12 @@
 import Navbar from './components/Navbar.tsx'
 import './App.css'
 import Home from './components/home.tsx'
-import Team from './components/Team.tsx'
+
 import Footer from './components/Footer.tsx'
 import Description from './components/descripcion.tsx'
-import Especialidades from './components/especiallidades.tsx'
-import Services from './components/Services.tsx'
+import Especialidades from './components/especialidades.tsx'
+import Especialidades2 from './components/especialidades2.tsx'
+import Especialidades3 from './components/especialidades3.tsx'
 function App() {
 
 
@@ -16,8 +17,9 @@ function App() {
     <Home/>
     <Description/>
     <Especialidades/>
-    <Services/>
-    <Team/>
+    <Especialidades2/>
+    <Especialidades3/>
+   
     <Footer/>
     
     </>

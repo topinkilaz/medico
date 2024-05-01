@@ -3,7 +3,8 @@ import esp2 from "../assets/esp2.jpg"
 import esp3 from "../assets/esp3.jpg"
 const Especialidades = () => {
     return (
-        <div>
+        <div id="especialidades">
+                
 
 <div className=" bottom-0 left-0 w-full bg-brandPrimary text-white py-8 px-4 text-center ">
   <p className=" text-lg  md:text-5xl font-teko md:mr-52 md:ml-52 md:leading-none text-start tracking-wider
@@ -38,6 +39,7 @@ non massa fermentum tincidunt. Cras at eros venenatis,
 hendrerit lectus vitae, finibus felis. Sed semper congue
 erat. Fusce sed porta enim.</p></div>
       </div>
+    
       </div>
     );
   };

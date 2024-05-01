@@ -4,7 +4,7 @@ import banner1 from "../assets/portada.png";
 
 const Home = () => {
   return (
-    <div className="bg-neutralSilver mb-10">
+    <div className="bg-neutralSilver mb-10 " id="home">
        <div className="relative">
         <Carousel className="w-full h-screen">
         <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12">

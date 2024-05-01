@@ -25,12 +25,12 @@ const Navbar = () => {
     }, []); 
 
     const navItems = [
-        { link: "Inicio", path: "/" },
-        { link: "Descripción", path: "/descripcion" },
-        { link: "Especialidades", path: "/especialidades" },
-        { link: "Servicios", path: "/servicios" },
-        { link: "Staff professional", path: "/staff" },
-        { link: "Contacto", path: "/contacto" },
+        { link: "Inicio", path: "home" },
+        { link: "Descripción", path: "descripcion" },
+        { link: "Especialidades", path: "especialidades" },
+        { link: "Servicios", path: "servicios" },
+       
+        { link: "Contacto", path: "contacto" },
     ];
 
     return (
