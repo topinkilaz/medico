@@ -65,6 +65,7 @@ const Services = () => {
 
     return () => clearInterval(interval);
   }, [currentIndex, items.length]);
+  {/*
 
   const handlePrevious = () => {
     setCurrentIndex((currentIndex - 1 + items.length) % items.length);
@@ -73,7 +74,7 @@ const Services = () => {
   const handleNext = () => {
     setCurrentIndex((currentIndex + 1) % items.length);
   };
-
+*/}
   return (
     <div id="Servicios" className=" bg-neutralSilver">
       <div className=" bottom-0 left-0 w-full bg-brandPrimary text-white py-8 px-4 text-center ">
