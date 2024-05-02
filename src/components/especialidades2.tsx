@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div className="bg-neutralSilver ">
       <div className="relative">
-        <div className="w-full h-screen flex justify-center items-center">
+        <div className="w-full h-screen flex justify-center items-center sm:py-16 lg:py-0">
         <Carousel >
         <div className=" lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
         <div className="relative sm:py-16 lg:py-0">

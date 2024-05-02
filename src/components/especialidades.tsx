@@ -44,4 +44,3 @@ erat. Fusce sed porta enim.</p></div>
     );
   };
   export default Especialidades;
-  

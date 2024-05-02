@@ -28,9 +28,9 @@ const Navbar = () => {
         { link: "Inicio", path: "home" },
         { link: "Descripción", path: "descripcion" },
         { link: "Especialidades", path: "especialidades" },
-        { link: "Servicios", path: "servicios" },
+        { link: "Servicios", path: "Servicios" },
        
-        { link: "Contacto", path: "contacto" },
+        { link: "Contacto", path: "Contacto" },
     ];
 
     return (
